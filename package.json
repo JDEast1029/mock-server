@@ -1,0 +1,14 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "author": "destiny",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
