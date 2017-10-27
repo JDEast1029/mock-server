@@ -4,7 +4,7 @@ var APIs = require('./APIs');
 
 
 for(var i=0;i<APIs.length;i++){  
-    var item=APIs[0];
+    var item=APIs[i];
     app.use(item.url,function (req,res,next) {
         res.json(require('./api/'+item.moduleName))
     })
